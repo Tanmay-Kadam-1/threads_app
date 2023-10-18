@@ -124,7 +124,7 @@ function ThreadCard({
         /> */}
       </div>
 
-      {/* {!isComment && comments.length > 0 && (
+      {!isComment && comments.length > 0 && (
         <div className='ml-1 mt-3 flex items-center gap-2'>
           {comments.slice(0, 2).map((comment, index) => (
             <Image
@@ -163,7 +163,7 @@ function ThreadCard({
             className='ml-1 rounded-full object-cover'
           />
         </Link>
-      )} */}
+      )}
     </article>
   );
 }
